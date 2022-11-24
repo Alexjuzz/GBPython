@@ -30,7 +30,7 @@ t5 = Turtle()
 t5.shape("turtle")
 t5.color(randint(0,255),randint(0,255),randint(0,255))
 t5.penup()
-t5.goto(-200,-70)
+t5.goto(-200,-7 0)
 t5.pendown()
 
 def razmetka():
