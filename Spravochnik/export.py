@@ -14,7 +14,11 @@ def exp(str_find):
         for i in result_list:
             if i not in some_list:
                 some_list.append(i)
-        return some_list
+
+        if not some_list:
+            print('Совподения не найдены')
+        else : 
+            return some_list
 
 def find_val(str_val, list_val):
     count = 0
