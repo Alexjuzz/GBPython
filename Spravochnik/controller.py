@@ -20,4 +20,3 @@ def main():
     else:
         view.out_put(export.exp(test_list))
         view.create_log('log_request_export',view.export.exp(test_list),'Результат запроса')
-            
